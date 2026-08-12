@@ -1,0 +1,10 @@
+form {
+    margin: 30px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+}
