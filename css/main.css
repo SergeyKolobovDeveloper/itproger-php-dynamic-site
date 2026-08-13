@@ -116,6 +116,12 @@ form button:hover{
     transform: scale(1.1);
 }
 
+.error-mess{
+    color: red;
+    margin: 10px 0;
+    font-weight: 600;
+    display: none;
+}
 footer {
     float: left;
     width: 100%;
