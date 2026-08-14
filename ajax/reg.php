@@ -20,15 +20,7 @@ if ($error != '') {
     exit;
 }
 
-$user = 'root';
-$password = 'root';
-$db = 'itproger_php_dynamic_site';
-$host = 'localhost';
-$port = '3306';
-
-$dsn = 'mysql:host='.$host.';dbname='.$db.';port='.$port;
-$pdo = new PDO($dsn, $user, $password);
-
+require_once "../lib/mysql.php";
 $salt = 'egyvfuck^DHSjh!JDKJ';
 $pass = md5($salt.$pass);
 

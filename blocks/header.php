@@ -12,7 +12,11 @@
     <span class="logo">Blog Master</span>
     <nav>
         <a href="/">Головна</a>
-        <a href="/login.php" class="btn">Увійти</a>
-        <a href="../auth/register.php" class="btn">Рейстрація</a>
+        <?php if(isset($_COOKIE['log'])): ?>
+            <a href="../auth/login.php" class="btn">Кабінет користувача</a>
+        <?php else: ?>
+            <a href="../auth/login.php" class="btn">Увійти</a>
+            <a href="../auth/register.php" class="btn">Рейстрація</a>
+        <?php endif; ?>
     </nav>
 </header>
