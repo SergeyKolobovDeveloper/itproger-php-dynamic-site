@@ -26,6 +26,6 @@ $query->execute([$login, $pass]);
 if($query->rowCount() == 0) {
     echo 'Такого користувача немає';
 } else {
-    setcookie('log', $login, time() + 3600 * 24 * 30, '/');
+    setcookie('login', $login, time() + 3600 * 24 * 30, '/');
     echo 'Done';
 }

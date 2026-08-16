@@ -3,7 +3,7 @@ $website_title = 'Авторизація';
 require "../blocks/header.php";
 ?>
 <main>
-    <?php if(!isset($_COOKIE['log'])): ?>
+    <?php if(!isset($_COOKIE['login'])): ?>
     <h1>Авторизація</h1>
         <form>
             <label for="login">Логін</label>
@@ -17,7 +17,7 @@ require "../blocks/header.php";
             <button type="button" id="login_user">Увійти</button>
         </form>
     <?php else: ?>
-        <h2><?= $_COOKIE['log'] ?></h2>
+        <h2><?= $_COOKIE['login'] ?></h2>
         <form action="">
             <button type="button" id="exit_user">Вийти</button>
         </form>    
