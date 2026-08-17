@@ -133,6 +133,43 @@ form button:hover{
     font-weight: 600;
     display: none;
 }
+
+.post {
+    margin-bottom: 30px;
+}
+.post h1 {
+    margin-bottom: 10px;
+}
+
+.post .author {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.post .author span {
+    background: #08e33f47;
+    padding: 2x 7px;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.post a {
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #08e33f47;
+    color: #222;
+    transition: transform 500ms ease;
+}
+
+.post a:hover {
+    transform: scale(1.1);
+}
+
 footer {
     float: left;
     width: 100%;
