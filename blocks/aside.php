@@ -1,7 +1,7 @@
 <aside>
     <div class="info">
         <h2>Цікаві факти!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sint at, maxime suscipit quisquam cumque nostrum molestiae consequatur odio laboriosam corrupti. Quo deleniti ipsum accusantium veritatis aperiam. Similique, alias magnam!</p>
+        <p>Антарктида — найхолодніший, найсухіший і найвітряніший континент на Землі, де зосереджено близько 70–90% світових запасів прісної води у вигляді льоду. Тут немає постійного населення, а територія належить усьому людству виключно для наукових досліджень.</p>
     </div>
     <img src="/img/Antarctica.jpg" alt="jpg">
 </aside>

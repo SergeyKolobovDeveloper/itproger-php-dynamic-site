@@ -13,7 +13,7 @@ require "blocks/header.php";
             <h1>". $row->title ."</h1>
             <p>". $row->anons ."</p>
             <p class='author'>Автор: <span>". $row->author ."</span></p>
-            <a href='/'>Читати</a>
+            <a href='/pages/post.php?id=" . $row->id . "' title='" . $row->title . "'>Читати</a>
             </div>";
         }
         ?>
