@@ -170,6 +170,16 @@ form button:hover{
     transform: scale(1.1);
 }
 
+.comment {
+    width: 100%;
+    background: #26bd0b;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #222;
+    margin-bottom: 30px;
+}
+
 footer {
     float: left;
     width: 100%;
