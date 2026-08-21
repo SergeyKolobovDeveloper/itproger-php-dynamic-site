@@ -12,6 +12,7 @@
     <span class="logo">Blog Master</span>
     <nav>
         <a href="/">Головна</a>
+        <a href="../pages/contact.php">Зворотній зв'язок</a>
         <?php if(isset($_COOKIE['login'])): ?>
             <a href="../pages/add-article.php">Додати статтю</a>
             <a href="../auth/login.php" class="btn">Кабінет користувача</a>
